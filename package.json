@@ -1,7 +1,7 @@
 {
-  "name": "start-server-and-test",
+  "name": "ppeterson-start-server-and-test",
   "description": "Starts server, waits for URL, then runs test command; when the tests end, shuts down server",
-  "version": "0.0.0-development",
+  "version": "2.0.12",
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "bugs": "https://github.com/bahmutov/start-server-and-test/issues",
   "bin": {
@@ -46,13 +46,12 @@
   ],
   "license": "MIT",
   "main": "src/",
-  "private": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bahmutov/start-server-and-test.git"
+    "url": "git+https://github.com/philip-peterson/start-server-and-test.git"
   },
   "scripts": {
     "ban": "ban",
